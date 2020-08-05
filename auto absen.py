@@ -9,8 +9,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 #yang ini isi sendiri bang username sama passowrdnya
-usernameStr = "0001915150"
-passwordStr = "krupukrenyah"
+usernameStr = "ini username"
+passwordStr = "ini password"
 
 #ini jadwal
 mtkmin = 'Mon 07 30 00'
