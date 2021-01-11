@@ -1,0 +1,29 @@
+{
+    "Mon": [
+        {"B.Arab": "MTkzS1dSUA==/QkFIQVNBIEFSQUIgWCBNSUEgMw==/MTkz"}
+    ],
+    "Tue": [
+        {"Fisika": "MTg3WDM4Qw==/WCBNSUEgMyBGaXNpa2EgV2FqaWIgZGFuIFBlbmd1YXRhbg==/MTg3"},
+        {"B.Inggris": "MzU4OFc2Qg==/QmFoYXNhIEluZ2dyaXMgV2FqaWIgWCBNSUEgMw==/MzU4"},
+        {"Kimia": "MTYzVDhKNQ==/WCBNSUEgMyBLSU1JQSBCVSBFRlJJWUVOVEk=/MTYz"}
+    ],
+    "Wed": [
+        {"Biologi": "MzQxTVI4WA==/WCBNSUEgMywgQklPTE9HSQ==/MzQx"},
+        {"Kimia PM": "MzFWRDNXUA==/UE0gS0lNSUFfWE1JQTM=/MzE="}
+    ],
+    "Thu": [
+        {"B.Indo": "MTcxTTlQRA==/QklORE8gQ0VSSUEgWCBNSUEgMw==/MTcx"},
+        {"Fikih": "MzY3UVY3OQ==/RklLSUggWCBNSUEgMw==/MzY3"},
+        {"Matematika": "MjU5M0dCUw==/WCBNSUEgMyBfIE1USyBXQUpJQg==/MjU5"},
+        {"Penjas": "MjQyMjQ1Sw==/WCBNSUEgMyBQRU5KQVNLRVM=/MjQy"}
+    ],
+    "Fri": [
+        {"PPKN": "MjY0QkhSNA==/UFBLbiBYIE1JQSAz/MjY0"},
+        {"Aqidah Akhlak": "MjkwWVdUUg==/QUtJREFIIEFLSExBSyBYIE1JQSAz/Mjkw"}
+    ],
+    "Sat": [
+        {"B.Indo LM": "MTExNVoxRg==/WCBNSUEgMyBMTSBCYWhhc2EgSW5kb25lc2lh/MTEx"},
+        {"SBK": "MjUxNDZOSg==/U2VuaSBCdWRheWEgWCBNSUEgMw==/MjUx"},
+        {"SKI": "NjJUOVhTNA==/U0tJIFggTUlBIDM=/NjI="}
+    ]
+}
