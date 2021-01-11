@@ -11,9 +11,13 @@ Jangan lupa install python, oke
 
 library yang dipakai:
 -pycurl
+
 `pip install pycurl`
+
 -json
+
 -datetime
+
 -re
   
 
