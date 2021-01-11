@@ -29,7 +29,7 @@ buat jalanin:
 
 `python main.py`
 
-seterusnya lihat di stdout&nbsp
+seterusnya lihat di stdout
 
 
 **Sy males nyoba di windows. Kalo ada apa-apa bilang sy aja**
