@@ -14,11 +14,9 @@ library yang dipakai:
 
 `pip install pycurl`
 
--json
-
--datetime
-
--re
+-json  
+-datetime  
+-re  
   
 
 isi password dan username kamu di data-user.json
