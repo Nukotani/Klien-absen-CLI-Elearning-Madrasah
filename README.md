@@ -9,7 +9,7 @@ kalo udah:
 Jangan lupa install python, oke
 
 
-library yang dipakai:
+library yang dipakai:  
 -pycurl
 
 `pip install pycurl`
