@@ -16,6 +16,4 @@ Some POSIX and GNU or smth header files.
 # Configuring Account
 Make a file named `akun`. If exist, don't waste your time making it.
 
-Edit file `akun` you just created.
-
-Change it according to what I wrote.
+Edit file `akun` you just created according to what I wrote
