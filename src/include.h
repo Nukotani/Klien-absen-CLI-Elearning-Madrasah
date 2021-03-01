@@ -10,3 +10,5 @@
 #include <stdlib.h>
 #include <regex.h>
 #include <time.h>
+#define ELEARING "http://elearning.man1balam.sch.id"
+#define PORT 80
