@@ -11,5 +11,11 @@ I gladly accept pull requests.
 I rewrote this project in C. Also, I no longer use curl.
 
 # Dependencies
-
 Some POSIX and GNU or smth header files.
+
+# Configuring Account
+Make a file named `akun`. If exist, don't waste your time making it.
+
+Edit file `akun` you just created.
+
+Change it according to what I wrote.
