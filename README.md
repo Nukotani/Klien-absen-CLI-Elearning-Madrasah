@@ -5,7 +5,7 @@ I made this project cuz I'm too lazy to open my browser.
 
 I gladly accept pull requests.
 
-**If you're using Windows or Mac or smth, rewrite it yourself.  I don't give shit about OSs other than Linux.**
+**If you're using Windows or Mac or smth, rewrite the code yourself.  I don't give shit about OSs other than Linux.**
 
 # What's New
 I rewrote this project in C. Also, I no longer use curl.
