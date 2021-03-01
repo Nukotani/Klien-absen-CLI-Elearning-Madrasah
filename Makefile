@@ -1,2 +1,2 @@
-main:
-	cc -o main src/main.c src/error.c src/parsers.c src/socket.c
+compile:
+	cc -o absen src/main.c src/error.c src/parsers.c src/socket.c
