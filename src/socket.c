@@ -21,7 +21,7 @@ char* client_connect(int sockfd, char *uri, char *cookie, bool post_flag) {
 	int n;
 	char *post_data, post_data_length[3];
 	char *buffer;
-	buffer = calloc(1000, sizeof(char));
+	buffer = calloc(600, sizeof(char));
 	if (post_flag) {
 		strcpy(buffer, "POST ");
 	}
