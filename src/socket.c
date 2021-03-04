@@ -51,7 +51,7 @@ char* client_connect(int sockfd, char *uri, char *cookie, bool post_flag) {
 	n = write(sockfd, buffer, strlen(buffer));
 	if (n < 0)
 		error("gagal menulis ke socket");
-	bzero(buffer, strlen(buffer));
+	memset(buffer, 0, strlen(buffer));
 	n = read(sockfd, buffer, 600);
 	if (n < 0)
 		error("gagal membaca socket");
