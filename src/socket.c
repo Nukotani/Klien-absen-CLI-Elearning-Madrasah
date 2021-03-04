@@ -2,24 +2,22 @@
 #include "parsers.h"
 
 int makesocket() {
-	int sockfd, error_controller;
+	int sockfd;
 	struct sockaddr_in server_address;
-	struct hostent *server;
+
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	if (sockfd < 0)
 		error("gagal membuka socket");
-	server = gethostbyname("elearning.man1balam.sch.id");
-	if (server == NULL)
-		error("gagal mencari address server");
-	bzero((char*)&server_address, sizeof(server_address));
+
 	server_address.sin_family = AF_INET;
-	bcopy((char*)server->h_addr, (char*) &server_address.sin_addr.s_addr, server->h_length);
-	server_address.sin_port = htons(80);
-	if (connect(sockfd, (struct sockaddr*) &server_address, sizeof(server_address)) < 0)
+	server_address.sin_port = (unsigned short)20480;
+	server_address.sin_addr.s_addr = (uint32_t) 179114286;
+
+	if (connect(sockfd, (struct sockaddr *) &server_address, sizeof(server_address)) < 0)
 		error("gagal menyambungkan");
 	return sockfd;
 }
-char* client_connect(int sockfd, char *uri, char *cookie, bool post_flag) {
+char *client_connect(int sockfd, char *uri, char *cookie, bool post_flag) {
 	int n;
 	char *post_data, post_data_length[3];
 	char *buffer;
