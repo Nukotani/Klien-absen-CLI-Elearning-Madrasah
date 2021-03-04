@@ -9,6 +9,8 @@ int makesocket() {
 	if (sockfd < 0)
 		error("gagal membuka socket");
 	server = gethostbyname("elearning.man1balam.sch.id");
+	if (server == NULL)
+		error("gagal mencari address server");
 	bzero((char*)&server_address, sizeof(server_address));
 	server_address.sin_family = AF_INET;
 	bcopy((char*)server->h_addr, (char*) &server_address.sin_addr.s_addr, server->h_length);
