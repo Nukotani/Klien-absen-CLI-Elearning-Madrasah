@@ -1,5 +1,5 @@
 # Absen otomatis E-Learning MAN1 Bandar Lampung
-**This project is subject to change since my experience in C and socket programming is less than two weeks.**
+**This project is subject to change**
 
 I made this project cuz I'm too lazy to open my browser.
 
