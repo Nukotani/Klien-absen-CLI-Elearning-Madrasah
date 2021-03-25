@@ -1,4 +1,4 @@
-# Absen otomatis E-Learning MAN1 Bandar Lampung
+# Klien Absen CLI E-Learning MAN1 Bandar Lampung
 **This project is subject to change**
 
 I made this project cuz I'm too lazy to open my browser.
