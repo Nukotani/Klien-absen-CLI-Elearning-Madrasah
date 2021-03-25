@@ -14,6 +14,4 @@ I rewrote this project in C. Also, I no longer use curl.
 Some POSIX and GNU or smth header files.
 
 # Configuring Account
-Make a file named `akun`. If exist, don't waste your time making it.
-
-Edit file `akun` you just created according to what I wrote in it.
+Edit file `akun` according to what I wrote in it.
