@@ -4,7 +4,7 @@
 #include "schedule.h"
 
 char *cookie_parser(char* source);
-char *account_parser();
+void account_parser(char data[]);
 char *name_parser();
-schedule *schedule_parser(size_t *size);
+size_t schedule_parser(schedule schedule_array[]);
 void login_check(char *response);

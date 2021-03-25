@@ -5,21 +5,23 @@
 
 int main(){
 	int sockfd = makesocket();
-	char *response = client_connect(sockfd, "/login/do_login", "d", 1);
+	char response[500];
+	schedule schedule_array[5];
+
+	client_connect(sockfd, "/login/do_login", "d", 1, response);
 	login_check(response);
 	char *cookie = cookie_parser(response);
-	free(response);
+	size_t schedule_size = schedule_parser(schedule_array); 
 	close(sockfd);
-	size_t *schedule_size;
-	schedule *schedule_array = schedule_parser(schedule_size); 
-	for (size_t i = 0; i < *schedule_size; i++) {
+	memset(response, 0, 500);
+	for (size_t i = 0; i < schedule_size; i++) {
 		sockfd = makesocket();
 		printf("Mengisi absen %s\n", schedule_array[i].name);
-		response = client_connect(sockfd, schedule_array[i].link, cookie, 0);
+		client_connect(sockfd, schedule_array[i].link, cookie, 0, response);
 		printf("berhasil\n");
-		free(response);
 		close(sockfd);
+		memset(response, 0, strlen(response));
 	}
-	close(sockfd);
+	//close(sockfd);
 	return 0;
 }

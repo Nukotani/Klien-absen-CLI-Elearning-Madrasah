@@ -3,4 +3,4 @@
 #include "error.h"
 
 int makesocket();
-char* client_connect(int sockfd, char* uri, char* cookie, bool post_flag);
+void client_connect(int sockfd, char uri[], char cookie[], bool post_flag, char buffer[]);
