@@ -1,5 +1,5 @@
 # Klien Absen CLI E-Learning MAN1 Bandar Lampung
-**This project is subject to change**
+**All or code in this repo are subject to change**
 
 I made this project cuz I'm too lazy to open my browser.
 
