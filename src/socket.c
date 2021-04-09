@@ -1,7 +1,8 @@
 #include "socket.h"
 #include "parsers.h"
 
-int makesocket() {
+int makesocket()
+{
 	int sockfd; 
 	struct sockaddr_in server_address;
 	
@@ -17,7 +18,8 @@ int makesocket() {
 		error("gagal menyambungkan");
 	return sockfd;
 }
-void client_connect(int sockfd, char uri[], char cookie[], bool post_flag, char buffer[]) {
+void client_connect(int sockfd, char uri[], char cookie[], bool post_flag, char buffer[])
+{
 	int n;
 	char post_data[255], post_data_length[3];
 
@@ -59,4 +61,5 @@ void client_connect(int sockfd, char uri[], char cookie[], bool post_flag, char 
 		error("gagal membaca socket");
 
 	buffer[strlen(buffer)] = '\0';
+	puts(buffer);
 }

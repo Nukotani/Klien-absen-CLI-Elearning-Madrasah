@@ -22,5 +22,6 @@ int main(){
 		close(sockfd);
 		memset(response, 0, strlen(response));
 	}
+	//close(sockfd);
 	return 0;
 }
